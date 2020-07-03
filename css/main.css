@@ -22,7 +22,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    background-color: deepskyblue
+    color: deepskyblue;
 }
 
 h1 {
