@@ -1,0 +1,11 @@
+---
+layout: default <!-- This is using Jekyll and is pulling the layout we've defined as default to add more details to the page (the header, footer, etc.)-->
+title: Zain Basit's Blog <!-- The title is the title of the overall blog page, so the tab in the browser will be called this-->>
+---
+	<h1>{{ page.title }}</h1>
+	<ul class="posts">
+
+	  {% for post in site.posts %} <!-- This is an underordered list of all the blog posts -->>
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
