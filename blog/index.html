@@ -6,6 +6,6 @@ title: Zain Basit's Blog <!-- The title is the title of the overall blog page, s
 	<ul class="posts">
 
 	  {% for post in site.posts %} <!-- This is an underordered list of all the blog posts -->>
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
