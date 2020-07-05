@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+	
+	<!-- Here is the Header -->
+	<head> 
+		<link href="css/main.css" type="text/css" rel="stylesheet">
+		<title>{{ page.title }}</title> <!-- This {{ page.title }} tag is a liquid tag, that will be used by Jekyll to "inject content" into the page -->
+	</head>
+
+	<body>
+		
+		<!-- Here we have the code for the Nav UI -->
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+
+		<!-- Here is the main body or container where the content for this page will be -->
+		<div class="container">
+            
+            {{ content }}  <!-- This {{ content }} tag is a liquid tag, that will be used by Jekyll to "inject content" into the page -->
+
+		</div><!-- /.container -->
+
+		<!-- Here is the footer, which contains some basic information about me -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:zainbasit1000@gmail.com">email</a></li>
+        		<li><a href="https://github.com/zain-basit">My Github Page</a></li>
+			</ul>
+		</footer>
+
+	</body>
+</html>
