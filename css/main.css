@@ -56,8 +56,14 @@ footer {
 }
 
 /* Blog */
-ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
-ul.posts li { list-style: none; }
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
 
 /* CV */
 .cv { margin: 0px 0px 60px; }
