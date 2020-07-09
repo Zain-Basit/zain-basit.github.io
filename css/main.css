@@ -62,6 +62,12 @@ footer {
     width: 50%;
 }
 
+
+figcaption {
+    padding: 2px;
+    text-align: center;
+  }
+
 /* Blog */
 ul.posts {
     margin: 20px auto 40px;
