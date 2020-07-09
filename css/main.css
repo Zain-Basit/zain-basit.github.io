@@ -55,6 +55,13 @@ footer {
     font-size: .8em;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* Blog */
 ul.posts {
     margin: 20px auto 40px;
