@@ -26,7 +26,7 @@ and I need to make that readable for humans. When I parsed the code, and all my 
 2. I need to implement a way to display keywords for the cards, and what they do. You see, each card had different effects and they could be something like the Tough effect. That's when a card takes 1 less damage from ALL sources. I needed a way to display that for people who wanted to look up keywords or if they wanted a list of all keywords entirely.
 
 <figure>
-    <img src="/images/blog3/tough.png" alt="A picture of a card that has the tough keyword" height="653" width="451" class="center">
+    <img src="/images/blog3/tough.png" alt="A picture of a card that has the tough keyword" class="center">
     <figcaption>This Poro Card has Tough on it</figcaption>
 </figure>
 
