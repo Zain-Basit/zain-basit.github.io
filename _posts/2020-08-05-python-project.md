@@ -19,7 +19,7 @@ As I was thinking about what I needed for the bot, I planned out a bunch of stuf
 and I need to make that readable for humans. When I parsed the code, and all my formatting and decoding and MAGIC, it looks like this:
 
 <figure>
-    <img src="/images/blog3/deckembed.png" alt="A picture of a deck code that has been parsed" height="468" width="324" class="center">
+    <img src="/images/blog3/deckembed.png" alt="A picture of a deck code that has been parsed" class="center">
     <figcaption>A deck that uses cards from Bilgewater and Piltover & Zaun</figcaption>
 </figure>
 
