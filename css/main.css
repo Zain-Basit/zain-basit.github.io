@@ -97,7 +97,7 @@ ul.posts li {
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 .cv .ul {
-    background-color: #3587e6;
+    /* background-color: #3587e6; */
     padding: 2px;
     color: white;
     list-style-type: square;
