@@ -19,12 +19,6 @@ p, ul {
     color: #333; 
 }
 
-ul {
-    background-color: #3269a8;
-    padding: 10px;
-    color: white;
-}
-
 h1, h2, h3, h4 { 
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -96,3 +90,8 @@ ul.posts li {
 .cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+.cv .ul {
+    background-color: #3269a8;
+    padding: 10px;
+    color: white;
+}
