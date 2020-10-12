@@ -85,7 +85,13 @@ ul.posts li {
 
 /* CV */
 .cv { margin: 0px 0px 60px; }
-.cv h1 { font-size: 3em; }
+.cv h1 { 
+    background-color:  #3587e6;
+    padding: 20px; 
+    font-size: 3em;
+    text-align: center;
+    color: white; 
+}
 .cv h2 { font-size: 2em; }
 .cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .cv address, .cv p { font-size: 1.2em; }
