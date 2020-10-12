@@ -19,6 +19,12 @@ p, ul {
     color: #333; 
 }
 
+ul {
+    background-color: #3269a8;
+    padding: 10px;
+    color: white;
+}
+
 h1, h2, h3, h4 { 
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
