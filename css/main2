@@ -55,9 +55,7 @@ nav li {
 #book1 {
     float: right;
     clear: both;
-    padding-right: 20px;
-    padding-left: 10px;
-    text-align: right
+    padding: 20px;
 }
 
 #redrise {
@@ -79,11 +77,11 @@ article {
 }
 
 footer {
-    outline: 1px solid blue;
-
+    
+    border-top: 1px solid blue;
     margin-top: 10px;
     margin: 10px;
-    background-color: white;
+    background-color: #bf86f9;
     padding: px;
     text-align: center;
     
@@ -96,16 +94,7 @@ footer {
     border: 1px solid blue;
 }
 
-.toc {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid blue;
-}
 
-.toc li{
-    padding: 2px;
-}
 
 .blog {
     background-color: white;
@@ -201,52 +190,6 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header img{
-    float: left;
-}
-
-#vinland {
-    float: right;
-    padding-left: 20px;
-}
-
-.work {
-    outline: 1px solid blue;
-}
-
-.line {
-    outline: 1px solid blue;
-    margin: -10px;
-    margin-bottom: -50px;
-}
-
-h5 {
-    margin-top: -25px;
-}
-
-#centerh2 {
-    text-align-last: center
-}
-
-
-
-#projectdis {
-    float: right;
-    margin-top: -100px;;
-}
-
-.clearright {
-    clear: right;
-}
-
-.proj {
+header {
     
-}
-
-.docu {
-    text-align: left
-}
-
-.cleartop {
-    margin-top: -60px;
 }
