@@ -1,252 +1,105 @@
-h1 {
-    background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 60px;
-/*    padding-top: 50px;*/
-/*    padding-right: 100px;*/
-    text-align: right;
-    padding-right: 120px;
-    
-    border-bottom: 1px solid blue;
-    
-    border-top: 1px solid blue;
-    
+body { 
+    margin: 60px auto;
+    width: 70%;
 }
 
-nav {
-    text-align: center;
-    height: 61px; /* The height covers the entire page, while the width only goes 200 pixels */
-    width: 100%;
-
-    background-color: white;
-    border-top: 1px solid blue;
-    border-bottom: 1px solid blue;
-}
-
-nav a {
-    color: black;
-    text-align: center;
-    padding: 20px; 
-    /* This is the padding between the links */
-    
+a {
     text-decoration: none;
-     /* This removes the fancy affects that links have, such as them being underlined or bolded */
-
-    display: inline-block; 
-    /* Displaying links as inlineblocks, so there is a bit of spacing between them depending on the padding */
-    
-    border-bottom: hotpink;
+    color: #999; 
 }
 
-nav a:hover {
-    background-color: #bf86f9;
-    color:white;
+a:hover { 
+    text-decoration: underline;
+    color: skyblue
 }
 
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    display: inline-block;
-}
-
-#book1 {
-    float: right;
-    clear: both;
-    padding-right: 20px;
-    padding-left: 10px;
-    text-align: right
-}
-
-#redrise {
-    left: 100px;
-}
-
-
-body {
-    padding: 0;
-    margin: 0;
-    background-color: pink;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px; 
-}
-
-article {
-    background-color: white;
-    padding: 20px;
-}
-
-footer {
-    outline: 1px solid blue;
-
-    margin-top: 10px;
-    margin: 10px;
-    background-color: white;
-    padding: px;
-    text-align: center;
-    
-}
-
-.information {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid blue;
-}
-
-.toc {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid blue;
-}
-
-.toc li{
-    padding: 2px;
-}
-
-.blog {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid blue;
-    
-}
-
-.information:hover{
-    border: 2px solid blue;
-}
-
-.current {
-    background-color: #bf86f9;
-
-}
-
-.clearfix {
-    overflow: auto;
-}
-
-@media screen and (max-width: 670px) {
-    nav {
-        text-align: center;
-        height: 305px;
-        background-color: white;
-    }
-    
-    nav a {
-        display: block; 
-    }
-    
-    nav li {
-        padding: 0;
-        margin: 0;
-        display: block;
-    }
-}
-
-
-figure div {
-    outline: 1px solid red;
-    outline-offset: 25px;
-}
-
-
-
-#selfpic {
-    float: right;
-    width: 20%;
-    padding-right: 120px;
-    padding-left: 30px;
-    padding-top: 30px;
-}
-
-p {
-
-}
-
-
-
-#logo {
-    padding-top: 10px;
-    padding-left: 40px;
-}
-
-
-#space {
-    float: right;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.footnav a {
-    display: inline-block;
-    text-decoration: none;
-    vertical-align: middle;
-}
-
-figure {
-    text-align: center;
-    padding: 20px;
-}
-
-h4 {
+p, ul { 
     font-size: 1.5em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4em;
+    color: #333; 
+}
+
+h1, h2, h3, h4 { 
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+h1 {
+    background-color:  #3587e6;
+    padding: 20px; 
+    font-size: 3em;
+    text-align: center;
+    color: white;
 }
 
 h2 {
-    font-size: 1.8em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.7em;
 }
 
-header img{
-    float: left;
+h3 {
+    font-size: 2.3em;
+}
+h4 {
+    font-size: 1.9em;
 }
 
-#vinland {
-    float: right;
-    padding-left: 20px;
+nav ul, footer ul { 
+    font-size: 1em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
 
-.work {
-    outline: 1px solid blue;
+nav ul li, footer ul li { 
+    display: inline;
+    margin-right: 20px;
 }
 
-.line {
-    outline: 1px solid blue;
-    margin: -10px;
-    margin-bottom: -50px;
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
 
-h5 {
-    margin-top: -25px;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-#centerh2 {
-    text-align-last: center
+
+figcaption {
+    padding: 2px;
+    text-align: center;
+  }
+
+/* Blog */
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
 }
 
-
-
-#projectdis {
-    float: right;
-    margin-top: -100px;;
+ul.posts li {
+    list-style: none;
 }
 
-.clearright {
-    clear: right;
+/* CV */
+.cv { margin: 0px 0px 60px; }
+.cv h1 { 
+    background-color:  #3587e6;
+    padding: 20px; 
+    font-size: 3em;
+    text-align: center;
+    color: white; 
 }
-
-.proj {
-    
-}
-
-.docu {
-    text-align: left
-}
-
-.cleartop {
-    margin-top: -60px;
+.cv h2 { font-size: 2em; }
+.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+.cv address, .cv p { font-size: 1.2em; }
+.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+.cv .ul {
+    /* background-color: #3587e6; */
+    padding: 2px;
+    color: black;
+    list-style-type: square;
+    border-left: 5px solid #155094;
 }
